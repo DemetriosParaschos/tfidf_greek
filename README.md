@@ -27,7 +27,7 @@ The texts include hymns dedicated to Zeus, sourced from critical editions and or
 - **Orphic Hymn 15**: To Zeus
 - **Orphic Hymn 19**: To Zeus the Thunderbolt
 - **Orphic Hymn 20**: To Astrapaios Zeus
-- **Derveni Papyrus, Col. XV-XIX**
+- **Derveni Papyrus**: Col. XV-XIX
 - **Aratus, *Phaenomena***: Lines 1-18
 
 ---
