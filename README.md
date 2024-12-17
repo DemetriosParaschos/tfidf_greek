@@ -33,13 +33,30 @@ The texts include hymns dedicated to Zeus, sourced from critical editions and or
 ---
 
 ## VERITRACE Context
-This project operates within the broader scope of the **VERITRACE** project, which focuses on the collection, analysis, and digital preservation of **Orphic texts**. VERITRACE applies digital humanities methodologies to reconstruct Orphic traditions and analyse their impact on later literature and philosophy. The current subproject aligns with VERITRACE's goals by:
+Here's the updated version based on your input:
 
-- Exploring the Orphic vocabulary and its distinct usage.
-- Comparing Orphic themes with other poetic and philosophical traditions, such as Stoic texts.
-- Highlighting how digital tools like **TF-IDF** enhance textual analysis.
+---
 
-For more information on VERITRACE, please visit our [website](https://veritrace.eu).
+## VERITRACE Context  
+This mini-project operates within the scope of the **VERITRACE** project, an ERC-funded initiative led by **Prof. Dr. Cornelis J. Schilt**, research professor at the **Vrije Universiteit Brussel**. VERITRACE, also known as *Traces de la Verité*, addresses the influence of ancient wisdom writings on the development of early modern natural philosophy.  
+
+During the Renaissance, works such as the **Chaldean Oracles**, the **Sibylline Oracles**, the **Corpus Hermeticum**, and the **Orphic Hymns** were rediscovered and incorporated into a *prisca sapientia*—a tradition that viewed these texts as containing timeless truths about God, humanity, and the cosmos. Foundational figures of modern science, including **Nicolaus Copernicus**, **Johannes Kepler**, **Francis Bacon**, **Pierre Gassendi**, **Isaac Newton**, and **Gottfried Wilhelm Leibniz**, engaged with this tradition, yet no comprehensive account has existed of precisely what they adopted from these texts or how the notion of a perennial truth shaped their knowledge-making.  
+
+VERITRACE explores these questions by deploying **bespoke distant reading techniques** on a vast corpus of early modern printed works. It traces the reappearance and dissemination of prominent ancient wisdom writings within early modern natural philosophy, examining:  
+
+- **What** early modern thinkers adopted from these texts.  
+- **How** these writings functioned within the emerging scientific discourse.  
+- **The debates** surrounding these ancient wisdom texts across early modern Europe, capturing the diversity of perceptions and interpretations.  
+
+By doing so, VERITRACE addresses a major gap in understanding the role of *prisca sapientia* in the emergence and evolution of early modern science.  
+
+### Alignment of the Current Mini-Project  
+The current mini-project contributes to VERITRACE’s overarching goals by:  
+- **Exploring** Orphic texts and their distinctive vocabulary.  
+- **Comparing** Orphic themes with other poetic and philosophical traditions, such as Stoicism.  
+- **Utilising** digital tools like **TF-IDF** to enhance textual analysis, showcasing how computational methods reveal patterns in historical texts.  
+
+For more information on VERITRACE, please visit our [website](https://veritrace.eu).  
 
 ---
 
