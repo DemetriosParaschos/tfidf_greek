@@ -1,9 +1,9 @@
 # TF-IDF Analysis of Greek Texts: Vocabulary Comparison in Poetry
 
 ## Overview
-This project explores **thematic vocabulary differences** in Greek poetry, particularly focusing on **hymns dedicated to Zeus**. The aim is to compare vocabulary usage across poems of various eras (Archaic to Hellenistic) and philosophical orientation (Classical, Orphic, Stoic, Alexandrian, Neoplatonic, etc.) to identify distinct word patterns and their significance.
+This project explores **thematic vocabulary differences** in Greek poetry, particularly focusing on **hymns dedicated to Zeus**. The aim is to compare vocabulary usage across poems of various eras (Archaic to Hellenistic) and philosophical orientations (Classical, Orphic, Stoic, Alexandrian, Neoplatonic, etc.) to identify distinct word patterns and their significance.
 
-The approach leverages **TF-IDF** (Term Frequency-Inverse Document Frequency) analysis to highlight words that are important in a specific subcorpus but uncommon across the entire corpus. The results contribute to broader projects, such as **VERITRACE** (focused on Orphic poems) and ongoing research into Stoic poetry.
+The approach leverages **TF-IDF** ([Term Frequency-Inverse Document Frequency](https://en.wikipedia.org/wiki/Tf–idf)) analysis to highlight words that are important in a specific subcorpus but uncommon across the entire corpus. The results contribute to broader projects, such as **VERITRACE** (focused on Orphic poems) and ongoing research into Stoic poetry.
 
 ---
 
@@ -22,18 +22,14 @@ The approach leverages **TF-IDF** (Term Frequency-Inverse Document Frequency) an
 The texts include hymns dedicated to Zeus, sourced from critical editions and organised into subcorpora. The corpus is flexible and can be expanded to include non-poetic texts as well.
 
 ### Hymns to Zeus
-- **Homeric Hymn 23**: To Zeus 
+- **Aratus, *Phaenomena***: Lines 1-18
 - **Callimachus, Hymn 1**: To Zeus
+- **Cleanthes, Fragment 1**: Hymn to Zeus
+- **Derveni Papyrus**: Col. XV-XIX
+- **Homeric Hymn 23**: To Zeus 
 - **Orphic Hymn 15**: To Zeus
 - **Orphic Hymn 19**: To Zeus the Thunderbolt
 - **Orphic Hymn 20**: To Astrapaios Zeus
-- **Derveni Papyrus**: Col. XV-XIX
-- **Aratus, *Phaenomena***: Lines 1-18
-
----
-
-## VERITRACE Context
-Here's the updated version based on your input:
 
 ---
 
@@ -151,26 +147,27 @@ analysis_path = '/path/to/greek_texts/groups/stoic'
 ---
 
 ## Critical Editions
-The following critical editions were consulted for the texts:
-1. T.W. Allen, W.R. Halliday, and E.E. Sikes, _The Homeric hymns_, 2nd edn., Oxford: Clarendon Press, 1936. 
-2. R. Pfeiffer, _Callimachus_, vol. 2, Oxford: Clarendon Press, 1953.
-3. W. Quandt, _Orphei hymni_, 3rd edn., Berlin: Weidmann, 1962 (repr. 1973).
-4. \[Anon.], "Der orphische Papyrus von Derveni," _Zeitschrift für Papyrologie und Epigraphik_ 47 (1982). 
-5. J.-M. Martin, _Arati phaenomena_, Florence: La Nuova Italia Editrice, 1956.
+The following critical editions were consulted for the texts, via [TLG](https://stephanus.tlg.uci.edu/index.php):
+
+1. T.W. Allen, W.R. Halliday, and E.E. Sikes, _The Homeric hymns_, 2nd edn., Oxford: Clarendon Press, 1936.
+2. \[Anon.], "Der orphische Papyrus von Derveni," _Zeitschrift für Papyrologie und Epigraphik_ 47 (1982).
+3. J.-M. Martin, _Arati phaenomena_, Florence: La Nuova Italia Editrice, 1956.
+4. R. Pfeiffer, _Callimachus_, vol. 2, Oxford: Clarendon Press, 1953.
+5. J.U. Powell, Collectanea Alexandrina, Oxford: Clarendon Press, 1925 (repr. 1970)
+6. W. Quandt, _Orphei hymni_, 3rd edn., Berlin: Weidmann, 1962 (repr. 1973).
 
 ---
 
-## Challenges and Future Work
+## Challenges, Ideas, and Future Work
 1. **NLP Limitations**: The accuracy of lemmatisation and TF-IDF for Ancient Greek remains challenging.
 2. **Phrases and Metre**: How does the analysis adapt to poetic metre and phrasing?
 3. **Cross-Linguistic Comparison**: Results may differ significantly in Latin translations.
 4. **Corpus Expansion**: Including texts from the Byzantine era (e.g., Gemistos Plethon) could add another dimension.
-5. **Publishing Results**: Preparing outputs for publication as a paper and GitHub repository.
 
 ---
 
 ## Acknowledgements
-This project connects to the **[VERITRACE](https://veritrace.eu)** project and my ongoing PhD research focused on Stoic texts.
+This project connects to the **[VERITRACE](https://veritrace.eu)** project, and my ongoing PhD research focused on Stoic texts.
 
 ---
 
